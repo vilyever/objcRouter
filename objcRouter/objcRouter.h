@@ -16,4 +16,5 @@ FOUNDATION_EXPORT const unsigned char objcRouterVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <objcRouter/PublicHeader.h>
 
-
+#import <objcRouter/VDRouter.h>
+#import <objcRouter/VDRouterNavigationController.h>
