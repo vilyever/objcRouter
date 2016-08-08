@@ -33,5 +33,6 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
 
   s.dependency 'objcViewController'
+  s.dependency 'objcWindow'
 
 end

@@ -18,3 +18,4 @@ FOUNDATION_EXPORT const unsigned char objcRouterVersionString[];
 
 #import <objcRouter/VDRouter.h>
 #import <objcRouter/VDRouterNavigationController.h>
+#import <objcRouter/UIViewController+VDRouter.h>

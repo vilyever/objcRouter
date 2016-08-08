@@ -23,6 +23,8 @@
 		FE6404E21D546DF700652BAC /* objcKVO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE6404DC1D546DF700652BAC /* objcKVO.framework */; };
 		FE6404E31D546DF700652BAC /* objcView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE6404DD1D546DF700652BAC /* objcView.framework */; };
 		FE6404E41D546DF700652BAC /* objcViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE6404DE1D546DF700652BAC /* objcViewController.framework */; };
+		FE640BEA1D586B3500652BAC /* UIViewController+VDRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = FE640BE81D586B3500652BAC /* UIViewController+VDRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE640BEB1D586B3500652BAC /* UIViewController+VDRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = FE640BE91D586B3500652BAC /* UIViewController+VDRouter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		FE6404DC1D546DF700652BAC /* objcKVO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcKVO.framework; path = Carthage/Build/iOS/objcKVO.framework; sourceTree = "<group>"; };
 		FE6404DD1D546DF700652BAC /* objcView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcView.framework; path = Carthage/Build/iOS/objcView.framework; sourceTree = "<group>"; };
 		FE6404DE1D546DF700652BAC /* objcViewController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcViewController.framework; path = Carthage/Build/iOS/objcViewController.framework; sourceTree = "<group>"; };
+		FE640BE81D586B3500652BAC /* UIViewController+VDRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+VDRouter.h"; sourceTree = "<group>"; };
+		FE640BE91D586B3500652BAC /* UIViewController+VDRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+VDRouter.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,8 @@
 				FE6404D01D5469D800652BAC /* VDRouter.m */,
 				FE6404D31D546A2200652BAC /* VDRouterNavigationController.h */,
 				FE6404D41D546A2200652BAC /* VDRouterNavigationController.m */,
+				FE640BE81D586B3500652BAC /* UIViewController+VDRouter.h */,
+				FE640BE91D586B3500652BAC /* UIViewController+VDRouter.m */,
 			);
 			path = objcRouter;
 			sourceTree = "<group>";
@@ -143,6 +149,7 @@
 			files = (
 				FE6404B31D54695300652BAC /* objcRouter.h in Headers */,
 				FE6404D11D5469D800652BAC /* VDRouter.h in Headers */,
+				FE640BEA1D586B3500652BAC /* UIViewController+VDRouter.h in Headers */,
 				FE6404D51D546A2200652BAC /* VDRouterNavigationController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE640BEB1D586B3500652BAC /* UIViewController+VDRouter.m in Sources */,
 				FE6404D61D546A2200652BAC /* VDRouterNavigationController.m in Sources */,
 				FE6404D21D5469D800652BAC /* VDRouter.m in Sources */,
 			);
@@ -440,6 +448,7 @@
 				FE6404C51D54695300652BAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE6404C61D54695300652BAC /* Build configuration list for PBXNativeTarget "objcRouterTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +457,7 @@
 				FE6404C81D54695300652BAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
