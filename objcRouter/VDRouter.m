@@ -27,7 +27,7 @@
     static id _sharedInstance = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        _sharedInstance = [ [ [self class] alloc] init];
+        _sharedInstance = [[VDRouter alloc] init];
     } );
     
     return _sharedInstance;
@@ -43,7 +43,7 @@
     return [self.bindedViewControllers objectForKey:identifier];
 }
 
-- (void)setRootViewControllerIdentifier:(NSString *)identifier {
+- (void)setRootViewControllerWithIdentifier:(NSString *)identifier {
     VDWindow.rootViewController = self.rootNavigationController;
     
     Class viewControllerClass = [self.bindedViewControllers objectForKey:identifier];

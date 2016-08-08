@@ -22,7 +22,7 @@
 - (void)bindViewController:(Class)vcClass withIdentifier:(NSString *)identifier;
 - (Class)viewControllerClassForIdentifier:(NSString *)identifier;
 
-- (void)setRootViewControllerIdentifier:(NSString *)identifier;
+- (void)setRootViewControllerWithIdentifier:(NSString *)identifier;
 
 - (UIViewController *)push:(NSString *)identifier;
 - (UIViewController *)push:(NSString *)identifier withPrepareAction:(void(^)(UIViewController *controller))prepareAction;
