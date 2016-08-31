@@ -1,2 +1,2 @@
-github "vilyever/objcViewController" "master"
-github "vilyever/objcWindow" "master"
+github "vilyever/objcViewController" == 1.1.0
+github "vilyever/objcWindow" == 1.1.0
